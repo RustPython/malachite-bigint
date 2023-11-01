@@ -7,7 +7,7 @@ license = "LGPL-3.0-only"
 description = "A drop-in num-bigint replacement based on malachite"
 
 [dependencies]
-malachite = "0.4.1"
+malachite = "0.4.4"
 num-traits = { version = "0.2.11", default-features = false, features = ["i128"] }
 num-integer = { version = "0.1.45", default-features = false, features = ["i128"] }
 derive_more = "0.99.17"
